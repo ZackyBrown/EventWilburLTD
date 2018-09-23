@@ -44,7 +44,7 @@
           <li><a href="#">Home</a></li>
           <li><a href="#infoProduct">About our product</a></li>
           <li><a href="#RSVP">Answer now</a></li>
-          <li><a href="#infoEvent">About the event</a></li>
+          <li><a href="#descrEvent">About the event</a></li>
         </ul>
       </div><!--/.nav-collapse -->
 
@@ -223,9 +223,10 @@
           <div class="row">
             <div class="col-md-6">
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#infoEvent">About the event</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#infoProduct">Our product</a></li>
                 <li><a href="#RSVP">Answer now</a></li>
+                <li><a href="#descrEvent">About the event</a></li>
                 <li><a href="#">Privacy policy</a></li>
               </ul>
             </div>
