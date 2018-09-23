@@ -42,8 +42,9 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#InfoEvent">About the event</a></li>
+          <li><a href="#infoProduct">About our product</a></li>
           <li><a href="#RSVP">Answer now</a></li>
+          <li><a href="#infoEvent">About the event</a></li>
         </ul>
       </div><!--/.nav-collapse -->
 
@@ -130,7 +131,7 @@
   |     Vitrine, images et textes    |
   ******************************** -->
 
-  <div class="container demoText" id="infoEvent" >
+  <div class="container demoText" id="infoProduct" >
     <div class="row">
       <div class="col-md-12">
         <table>
@@ -141,17 +142,17 @@
           </tr>
           <tr>
             <td class="more-info1">
-              <h2>Lorem ipsum.</h2>
+              <h2>Robots !</h2>
               <p class="textBasique">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!<br><span class="btn btn-default">More info</span></p>
               <p class="textAlternat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!</p>
             </td>
             <td class="more-info2">
-              <h2>Lorem ipsum.</h2>
+              <h2>Space stations !</h2>
               <p class="textBasique">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!<br><span class="btn btn-default">More info</span></p>
               <p class="textAlternat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!</p>
             </td>
             <td class="more-info3">
-              <h2>Lorem ipsum.</h2>
+              <h2>Super mutants</h2>
               <p class="textBasique">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!<br><span class="btn btn-default">More info</span></p>
               <p class="textAlternat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam enim praesentium, aut cum eveniet ad. Harum, voluptate. Necessitatibus commodi impedit placeat aut consequuntur praesentium perspiciatis mollitia tenetur sit delectus!</p>
 
@@ -169,55 +170,81 @@
   |     RSVP    |
   *********** -->
   <h2 id="h2RSVP">You've been invited ?</h2>
+
   <div class="container rsvp" id="RSVP">
     <div class="row">
       <form class="" action="rsvp.php" method="post">
-<h2>Let us now ! Enter your</h2>
+        <h2>Let us now ! Enter your</h2>
         <div class="form-group">
           <label for="email">Email address :</label>
           <input type="email" class="form-control emailRSVP" placeholder="exemple@domaine.fr" id="email" name="mailuser" required>
           <br>
-          <button type="submit" class="btn btn-default" id="btnRSVP">Tel us !</button>
+          <button type="submit" class="btn btn-default" id="btnRSVP">Tell us !</button>
         </div>
 
       </form>
     </div><!-- row -->
   </div><!-- container -->
 
-
   <br><br>
 
-  <!-- *********************
-  |         FOOTER         |
-  ********************** -->
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#infoEvent">About the event</a></li>
-            <li><a href="#RSVP">Answer now</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
+  <!-- *************************************
+  |         Présentation évenement         |
+  ************************************** -->
+  <h2 style="text-align:center;">Want to know about this event ?</h2>
+  <br>
+  <div class="container">
+    <div class="row" id="descrEvent">
+      <div class="col-md-4"><img src="img/SpaceStationInvite.jpg" alt="" id="descripstation"></div>
+      <div class="col-md-8">
+        <h3>This is in space !</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col-md-6" style="text-align: right;">
-          <p>&copy; Wilbur LTD | All rights reserved</p>
+      </div>
+      <div class="row" id="meetScientist">
+        <div class="col-md-8" >
+          <h3>Meet our greatest scientist !</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-md-4"><img src="img/BadScientist.jpg" alt="" id="descripscientist"></div>
         </div>
-      </div><!-- row -->
-    </div><!-- container -->
-  </footer>
+      </div>
+
+      <br><br>
+
+      <!-- *********************
+      |         FOOTER         |
+      ********************** -->
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#infoEvent">About the event</a></li>
+                <li><a href="#RSVP">Answer now</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+              <p>&copy; Wilbur LTD | All rights reserved</p>
+            </div>
+          </div><!-- row -->
+        </div><!-- container -->
+      </footer>
 
 
 
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
 
-  <script src="js/local.js"></script>
+      <script src="js/local.js"></script>
 
-</body>
-</html>
+    </body>
+    </html>
